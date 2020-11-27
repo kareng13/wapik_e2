@@ -1,0 +1,54 @@
+.primera-parte{
+    padding-top: 293px;
+    padding-bottom: 198px;
+    background-image: url(../imagenes_andres/Masthead.jpg);
+    padding-right: 90px;
+}
+.primera-parte h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    color: #ffffff;
+}
+.primera-parte p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+.Features{
+    padding-top: 80px;
+}
+.Features h2{
+    color: #0F5F5C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+.Features p{
+    padding-bottom: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #83A7A5;
+}
+#tamaño-imagenes{
+    height: 57px;
+    width: 45.88px;
+}
+#el-boton{
+    background-color: #6FB048;
+    color: #ffffff;
+    width: 186px;
+    height: 50px;
+}
+#forma-de-texto{
+    font-size: 14px;
+    color: #83A7A5;
+    font-family: 'Roboto', sans-serif;
+}
+#cartas-fuente{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #83A7A5;
+}
+#lineacolor{
+    color: #6FB048;
+    height: 20px;
+}
