@@ -50,5 +50,67 @@
 }
 #lineacolor{
     color: #6FB048;
-    height: 20px;
+    height: 5px;
+}
+.seccion-1{
+    background-color: #EEF1EC;
+}
+.seccion-1 h2{
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: #0F5F5C;
+    padding-top: 60px;
+}
+.seccion-1 p{
+    color: #83A7A5;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+.persona{
+    padding-top: 140px;
+    padding-bottom: 30px;
+}
+.mapa{
+    padding-top: 140px;
+    background-color: #EEF1EC;
+}
+.cosas h2{
+    color: #0F5F5C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+.cosas p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #83A7A5;
+}
+.cosos p{
+    padding-top: 140px;
+    font-family: 'Merriweather', serif;
+    color: #83A7A5;
+    font-size: 22px;
+}
+#nombre-de-persona{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #6FB048;
+    padding-top: 0px;
+}
+#nombre-de-empresa{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #83A7A5;
+    padding-top: 0px;
+}
+.cusus h2{
+    color: #0F5F5C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    padding-top: 50px;
+}
+.cusus p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #83A7A5;
 }
