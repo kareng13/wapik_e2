@@ -74,6 +74,7 @@
 .mapa{
     padding-top: 140px;
     background-color: #EEF1EC;
+    padding-bottom: 80px;
 }
 .cosas h2{
     color: #0F5F5C;
@@ -113,4 +114,101 @@
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #83A7A5;
+}
+.precios{
+    padding-top: 85px;
+}
+.precios h2{
+    font-family: 'Roboto', sans-serif;
+    color: #0F5F5C;
+    font-size: 32px;
+}
+.precios p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #83A7A5;
+}
+#boton-de-ayuda{
+    background-color: #6FB048;
+    color: #ffffff;
+    width: 285px;
+    height: 42px;
+}
+#checkspot{
+    color: #83A7A5;
+    font-size: 14px;
+}
+.ayuda{
+    padding-bottom: 100px;
+}
+.ayuda h2{
+    color: #6FB048;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+.ayuda h5{
+    color: #0F5F5C;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.ayuda p{
+    color: #83A7A5;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.te-gusta-wapik{
+    background-image: url(../imagenes_andres/Call.png);
+    padding-bottom: 32px;
+}
+#incluido{
+    padding-top: 75px;
+}
+#cursus{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #83A7A5;
+    padding-bottom: 40px;
+}
+#wapik1{
+    padding-top: 73px;
+}
+#wapik2{
+    padding-top: 100px;
+}
+#los-titulos{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #6FB048;
+}
+#cantidad{
+    font-style: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #0F5F5C;
+    font-size: 65px;
+}
+#boton-gris{
+    background-color: #83A7A5;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    width: 140px;
+    height: 42px;
+}
+#boton-verde{
+    background-color: #6FB048;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    width: 140px;
+    height: 42px;
+}
+.cuadros-extra{
+    padding-top: 100px;
+    padding-bottom: 49px;
+}
+#te-gusta{
+    color: #0F5F5C;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
 }
