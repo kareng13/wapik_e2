@@ -1,0 +1,138 @@
+.header{
+    background-image: url(../Images/Masthead.svg);
+    background-repeat: no-repeat;
+    
+    width:1500px;
+    margin-right
+    :1500px;
+   
+}
+.img{
+    height: 40px;
+    background-color:
+    margin-top: 10px;
+}
+.texto{
+    float: right; 
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}.texto{
+    float: right; 
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+.p1{
+    float: left;
+    padding-top: 9.98px;
+}
+.p2{
+    float: left;
+    margin-left: 41px;
+    padding-top: 9.98px;
+}
+.p3{
+    float: left;
+    margin-left: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 6.98px;
+    padding-bottom: 5.96px;
+    border: 2px solid #FFFFFF;
+}
+h1{ 
+    color: #3D8C06 ;
+    font-family: 'roboto':sans-serif
+
+
+}
+.p5{
+
+ color: #3D8C06 ;
+    font-family: 'roboto':sans-serif
+
+
+}
+
+.Los-servicios{
+  height: 815px;
+  background: #ffff;
+  position: relative;
+}
+.servicios-2{
+  margin-top: 143px;
+  margin-bottom: 81px;
+}
+.icono-de-servicios{
+  height: 180px;
+  width: 355px;
+  margin-bottom: 70px;
+  float: left;
+}
+.icon-2{
+  height: 180px;
+  width: 355px;
+  float: left;
+  margin-left: 35px;
+  margin-bottom: 70px;
+  position: relative;
+}
+#icono-de-servicios{
+  margin-bottom: 21px;
+}
+#titulo-de-our{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #141720;
+  margin-bottom: 15px;
+}
+#texto-our{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #5D5F65;
+}
+
+#met-our-team{
+ margin-bottom: 30px;
+}
+.meet{
+  
+ height: 40px;
+    background-color:
+    margin-top: 10px;}
+
+
+#icono{
+
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 200px;
+background: #EEF1EC;{
+
+
+}
+.lineas{
+  margin: 1em;
+  padding: 1em;
+  color: #EEF1EC;
+  float: left;
+}
+#frames{
+margin: 1em;
+  padding: 1em;
+  color:
+  float: left;{
+
+
+  }
+#tamaño-imagenes{
+
+width: 300px;
+height: 180px;
+}
+.Meet-our-team{
+
+  background:#EEF1EC;
+}
+
+}
