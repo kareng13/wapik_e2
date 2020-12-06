@@ -1,10 +1,23 @@
 .primera-parte{
-    padding-top: 293px;
-    padding-bottom: 198px;
     background-image: url(../imagenes_andres/Masthead.jpg);
-    padding-right: 90px;
+    padding-bottom: 196px;
+}
+.navegacion1{
+    padding-top: 34px;
+    color: #ffffff;
+    
+}
+#navegacion{
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+#bajar{
+    padding-top: 20px;
 }
 .primera-parte h1{
+    padding-top: 96px;
     font-family: 'Roboto', sans-serif;
     font-size: 38px;
     color: #ffffff;
@@ -13,6 +26,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #ffffff;
+    padding-bottom: 19px;
 }
 .Features{
     padding-top: 80px;
@@ -20,6 +34,7 @@
 .Features h2{
     color: #0F5F5C;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 32px;
 }
 .Features p{
@@ -34,6 +49,9 @@
 }
 #el-boton{
     background-color: #6FB048;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
     color: #ffffff;
     width: 186px;
     height: 50px;
@@ -50,7 +68,7 @@
 }
 #lineacolor{
     color: #6FB048;
-    height: 5px;
+    height: 2px;
 }
 .seccion-1{
     background-color: #EEF1EC;
@@ -58,6 +76,7 @@
 .seccion-1 h2{
     font-size: 32px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     color: #0F5F5C;
     padding-top: 60px;
 }
@@ -69,7 +88,7 @@
 }
 .persona{
     padding-top: 140px;
-    padding-bottom: 30px;
+    padding-bottom: 140px;
 }
 .mapa{
     padding-top: 140px;
@@ -83,27 +102,35 @@
 }
 .cosas p{
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 14px;
     color: #83A7A5;
 }
 .cosos p{
     padding-top: 140px;
     font-family: 'Merriweather', serif;
+    font-weight: 300;
+    line-height: 40px;
     color: #83A7A5;
     font-size: 22px;
 }
 #nombre-de-persona{
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     font-size: 14px;
+    line-height: 22px;
     color: #6FB048;
     padding-top: 0px;
 }
 #nombre-de-empresa{
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
+    line-height: 0px;
+    font-weight: 500;
     color: #83A7A5;
     padding-top: 0px;
-}
+    padding-bottom: 30px;
+    }
 .cusus h2{
     color: #0F5F5C;
     font-family: 'Roboto', sans-serif;
@@ -120,6 +147,7 @@
 }
 .precios h2{
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     color: #0F5F5C;
     font-size: 32px;
 }
@@ -130,8 +158,11 @@
 }
 #boton-de-ayuda{
     background-color: #6FB048;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
     color: #ffffff;
-    width: 285px;
+    width: 290px;
     height: 42px;
 }
 #checkspot{
@@ -178,12 +209,14 @@
 }
 #los-titulos{
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     font-size: 15px;
     color: #6FB048;
 }
 #cantidad{
     font-style: bold;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     color: #0F5F5C;
     font-size: 65px;
 }
@@ -211,4 +244,58 @@
     color: #0F5F5C;
     font-size: 28px;
     font-family: 'Roboto', sans-serif;
+}
+#prueba{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+#lineanav{
+    width: 1056px;
+}
+#letra-fuerte{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #0F5F5C;
+}
+@media (min-width: 320px) and (max-width: 767px){ 
+    .nav-link{
+        width: 100%;
+        text-align: center;
+    }
+    #lineanav{
+        width: 50%;
+        align-items: left;
+    }
+    .cosos p{
+        padding-top: 0%;
+    }
+
+}
+
+
+@media (min-width: 768px) and (min-width: 1023px){  
+    .nav-link{
+        padding: .5rem 0rem;
+    }
+    #lineanav{
+        width: 80%;
+        align-items: left;
+    }
+    .cosos p{
+        padding-top: 20%;
+    }
+    .cusus h2{
+        padding-top: 0%;
+    }
+}
+
+
+@media (min-width: 992px){  
+
+}
+
+
+@media (min-width: 1200px){  
+    
 }
