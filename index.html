@@ -6,58 +6,45 @@
     <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="estilos_andre/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 <!--libros extras-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="fonts/stylesheet.css"> <!-- Hoja de estilos de fuentes -->
-    <link rel="stylesheet" href="css/font-awesome.min.css"> <!-- librerias de iconos -->
-    <link rel="stylesheet" href="css/responsive.css" /> <!-- Hoja de estilos responsivos -->
-    <link rel="stylesheet" href="css/style.css"> <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="style.css"> 
     <title>trabajazo</title>
 </head>
 <body>
     <!--menu de pestañas-->
-    <header id="header" class="navbar-fixed-top head_bg">
-      <div class="container">
-          <div class="menu">
-              <nav class="navbar navbar-default">
-                  <div class="container-fluid">
-                      <div class="navbar-header">
-                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                              <span class="sr-only">Toggle navigation</span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                          </button>
-                          <a class="navbar-brand our_logo" href="#">Wapik</a>
-                          <div class="call_us">
-                              <i class="fa fa-phone"></i>
-                              +62 202 555 0117
-                          </div>
-                      </div>
-                      <!-- BARRA DE NAVEGACION -->
-                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                          <ul class="nav navbar-nav navbar-right">
-                              <li><a href="index.html">Home</a></li>
-                              <li><a href="aboutus.html">About Us</a></li>
-                              <li><a href="pricing.html">Pricing</a></li>
-                              <li><a href="contact.html">Contact Us</a></li>
-                              <li><a href="#"
-                                      style="background:#6FB048;color:#fff;border-radius:2px;padding:5px 10px;margin-top:10px;">Get
-                                      Stared</a></li>
-                          </ul>
-                      </div>
-                  </div>
-              </nav>
-
-          </div>
-      </div>
-  </header>
-
     <!--fin de pestañas-->
     <!--welcome part-->
     <div class="primera-parte">
+      <div class="navegacion1">
+        <header>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <i class="fa fa-phone" id="bajar"></i>
+                +62 202 555 0117
+              </div>
+              <div class="col-sm-6">
+                <nav>
+                  <ul class="navbar">
+                    <a href="#" class="nav-link" id="navegacion">HOME</a>
+                    <a href="#" class="nav-link" id="navegacion">ABOUT US</a>
+                    <a href="#" class="nav-link" id="navegacion">PRICING</a>
+                    <a href="#" class="nav-link" id="navegacion">CONTACT US</a>
+                    <a href="#" class="nav-link" id="navegacion2">GET STARTED</a>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <hr align="center"  color="white" id="lineanav">
+        </header>
+
+      </div>
       <div class="container">
           <div class="row">
               <div class="col-sm-7">
@@ -73,7 +60,12 @@
     <div class="Features">
         <div class="container">
             <div class="center">
-             
+              <div class="text-center">
+                <h2>Best of our features</h2>
+                <hr align="center" size="20" width="65" color="#6FB048" id="lineacolor">
+                <p>Donec id elit non mi porta gravida at eget metus.</p>
+            </div>
+    
             </div>
                <!--3 recuadros-->
                <div class="row">
@@ -87,16 +79,16 @@
                   </div>
                 </div>
                 <div class="col-sm-4">
-                  <div class="card text-center border-0">
+                  <div class="card text-center border-0" id="cartas-fuente" >
                       <div class="card-body">
                         <img src="imagenes_andres/ab2.png" class="card-img-top" alt="..." id="tamaño-imagenes">
                       <h4 class="card-title">Creative Design</h4>
                       <p class="card-text" id="forma-de-texto">Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
                     </div>
                   </div>
-                </div>
+                </div> 
                 <div class="col-sm-4">
-                    <div class="card text-center border-0">
+                    <div class="card text-center border-0" id="cartas-fuente">
                         <div class="card-body">
                             <img src="imagenes_andres/ab3.png" class="card-img-top" alt="..." id="tamaño-imagenes">
                         <h4 class="card-title">Photoshop and Sketch</h4>
@@ -205,10 +197,9 @@
                       <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. 
                         Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur.
                          Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. 
-                         Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus.</p>
+                         Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus.</p> <br>
                   </div>
               </div>
-
               <div class="col-md-6 col-sm-6">
                   <div class="imagen-mapa">
                       <img src="imagenes_andres/build.png" alt="" />
@@ -362,7 +353,7 @@
           <div class="col-sm-3">
             <div class="card text-left border-0">
                 <div class="card-body">
-                <h3 class="card-title">wapik</h3>
+                <h3 class="card-title" id="letra-fuerte">wapik</h3>
                 <p class="card-text">@: hi@wapik.com <br>
                   p: +62 202 555 0117 <br>
                   a: 610 Overlook Circle Suite 323 <br>
@@ -373,7 +364,7 @@
           <div class="col-sm-3">
             <div class="card text-left border-0">
                 <div class="card-body">
-                  <h3 class="card-title">company</h3>
+                  <h3 class="card-title" id="letra-fuerte">company</h3>
                   <p class="card-text">Home <br>
                     About Us <br>
                     Pricing <br>
@@ -384,7 +375,7 @@
           <div class="col-sm-3">
               <div class="card text-left border-0">
                   <div class="card-body">
-                    <h3 class="card-title">others</h3>
+                    <h3 class="card-title" id="letra-fuerte">others</h3>
                     <p class="card-text">Help & Support <br>
                       Privacy Policy <br>
                       Terms <br>
@@ -395,13 +386,12 @@
             <div class="col-sm-3">
               <div class="card text-left border-0">
                   <div class="card-body">
-                    <h3 class="card-title">Newsletter</h3>
+                    <h3 class="card-title" id="letra-fuerte">Newsletter</h3>
                     <p class="card-text">Subscribe to our newsletter and get all the cool news</p>
-                    <form class="navbar-form navbar-left email_sender" role="search">
+                  <form>
                      <div class="form-group">
                         <input type="text" class="form-control" placeholder="Search">
                       </div>
-                      <button type="submit" ><i class="fa fa-paper-plane-o"></i></button>
                   </form>
                 </div>
               </div>
