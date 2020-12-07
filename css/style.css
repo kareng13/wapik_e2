@@ -1,4 +1,6 @@
 
+
+html,
 body {
     background-color: #ffffff;
     font-size: 15px;
@@ -12,6 +14,14 @@ body {
 }
 
 
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+
+
 .form-control {
     border: 1px solid rgba(0, 0, 0, 0.08);
     font-size: 16px;
@@ -21,20 +31,22 @@ body {
     border-color: #6FB048;
 }
 
-h2,
- {
+h2 {
     font-family: 'robotolight';
     font-weight: 300;
     margin: 0;
 }
-h4,
- {
+h4 {
     font-family: 'robotolight';
     font-weight: 300;
     margin: 0;
     line-height: 2rem;
 }
-
+h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 300;
+}
 h2 {
     font-size: 2rem;
     line-height: 3rem;
@@ -43,34 +55,56 @@ h2 {
 
 }
 
-
 h4 {
     font-size: 1.5rem;
     line-height: 2.2rem;
     margin-bottom: 1.1rem;
 }
 
-
+}
 p {
     line-height: 1.5rem;
     font-size: 1.1rem;
 }
-p:last-child {
-    margin-bottom: 0px;
-}
 
 
-.lightbg {
-    background-color: #f9f9f9;
+.sections {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    overflow: hidden;
 }
-.transition {
-    -webkit-transition: all 300ms linear;
-    -moz-transition: all 300ms linear;
-    -o-transition: all 300ms linear;
-    -ms-transition: all 300ms linear;
-    transition: all 300ms linear;
+.sections.footer {
+    padding-bottom: 80px;
 }
-
+section .subtitle h5 {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-family: 'roboto', sans-serif;
+}
+.parallax-section {
+    max-width: 100%;
+    color: #ffffff;
+}
+section .title-half h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 300;
+    margin-bottom: 1.4rem;
+}
+section .subtitle-half h5 {
+    font-weight: 100;
+    font-size: 17px;
+}
+section:nth-of-type(odd) {
+    background-color: #F9F9F9;
+}
+.fw-special-title-half {
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 100;
+    
+}
 
 .separator {
     height: 1px;
@@ -81,6 +115,33 @@ p:last-child {
 }
 
 
+.btn-primary.disabled:hover {
+    color: #ffffff;
+    background-color: #6FB048;
+    border-color: #6FB048;
+}
+.btn {
+    margin-right: 15px;
+    border-radius: 25px;
+}
+.btn {
+    border: 0px solid #fff;
+    display: inline-block;
+    padding: .8em;
+    height: 45px;
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: .9rem;
+    font-weight: 300;
+	line-height: 26px;
+}
+/*.btn-default:active, .btn-default:hover  {
+    background: transparent;
+}*/
 .btn-lg,
 .btn-group-lg > .btn {
     padding: 10px 30px;
@@ -164,18 +225,6 @@ btn-default:focus {
 }
 
 
-
-h1 span {
-    color: #f56363;
-    font-weight: 400;
-}
-
-
-.head_bg{
-	background:transparent;
-}
-
-
 h2.title_border{
     position:relative;
 }
@@ -222,11 +271,6 @@ a.btn{
 }
 
 
-.navbar-default {
-    margin-top: 15px;
-}
-
-
 .container-fluid {
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
@@ -254,13 +298,56 @@ a.btn{
     line-height: 15px;
     font-size: 13px;
 }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #fff;
+    background-color: transparent;
+}
 
+#bener{
+    background:url(../img/benner_bg.jpg) no-repeat;
+	background-size:cover;
+}
 
-#our_features{
-    padding: 0px 0px 100px 0px;
+.bener_content{
+    padding:195px 0;
+    max-width:515px;
+    color:#fff;
+	margin-top:80px;
 }	
+.bener_overlay{
+	background: rgba(48, 107, 109, 0.65);
+    height: 660px;
+
+}	
+.bener_content h2{
+    color:#ffff;
+}	
+.bener_content p{
+    color:#ffff;	
+}
 
 
+
+.build_contant{
+    max-width: 500px;
+    padding-top: 60px;
+}
+
+.build_contant h2{
+	font-size:2rem;
+    color:#0f5f5c;
+}
+.build_contant p{
+    font-size:14px;
+    color:#83a7a5;
+}
 
 /* Pricing Section */
 #pricing{
@@ -292,7 +379,7 @@ a.btn{
     border: 1px solid rgba(221, 221, 221, 0.25);
     padding: 30px;
 }
-
+.top_text{}
 .top_text span{
     display: block;
     font-size: 15px;
@@ -347,7 +434,7 @@ a.btn{
     font-size:16px;
 }
 
-/* Healp Section CSS */
+
 #healp{
     padding: 50px 0px 100px 0px;
 }
@@ -372,10 +459,9 @@ a.btn{
     color:#0f5f5c;
 }
 
-/* like Section */
 
 #like{
-    background:url(../img/like_bg.png) no-repeat scroll 0 0;
+    background:url(../img/like_bg.png);
     background-size:cover;
 }
 .single_like{
@@ -397,7 +483,7 @@ a.btn{
     text-align:center;
 }
 
-/* Footer Section  CSS */
+
 #footer{
     padding: 100px 0px 20px 0px;
 }
@@ -409,16 +495,7 @@ a.btn{
     color:#0f5f5c;
 	font-family: 'robotomedium';
 }
-.single_footer li a{
-    font-size:13px;
-    color:#83a7a5;
-}
 
-
-
-form.email_sender input[type="text"]{
-    position:relative;
-}
 
 button[type="submit"]{
     position: absolute;
@@ -468,6 +545,23 @@ button:focus{
 .single_footer_bottom li a i{ 
     padding:10px;
 }
+a.s_f_1{
+    background:#55ACEE;	
+}
+a.s_f_2{
+    background:#3B5998;
+}
+a.s_f_3{
+    background:#3F729B;
+}
+a.s_f_4{
+    background:#EC6197;	
+}
+a.s_f_5{
+    background:#383838;	
+}
+
+
 
 #google_map{    
 	padding-top: 76px;
@@ -531,6 +625,11 @@ a.get_stared_btn{
     padding: 5px 10px;
     margin-top: 10px;
 }
+
+
+
+
+
 
 
 
