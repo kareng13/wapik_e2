@@ -318,18 +318,36 @@ font-size: 42px;
         width: 100%;
         height: 100%;
     }
-    .primera-parte h1{
-        text-align: center;
-    }
-    .primera-parte p{
-        text-align: center;
-    }
     #te-gusta{
         text-align: center;
     }
     #tgjr{
         text-align: center;
         padding-top: 20px;
+    }
+    #letra-fuerte{
+        text-align: center;
+    }
+    #cartitas{
+        text-align: center;
+    }
+    .cusus p{
+        text-align: center;
+    }
+    .cusus h2{
+        text-align: center;
+    }
+    .cosos p{
+        text-align: center;
+    }
+    .cosas h2{
+        text-align: center;
+    }
+    .cosas p{
+        text-align: center;
+    }
+    #checklist{
+        text-align: center;
     }
 }
 @media (min-width: 768px) and (min-width: 1023px){  
