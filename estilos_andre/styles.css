@@ -30,12 +30,14 @@
     font-family: 'Roboto', sans-serif;
     font-size: 38px;
     color: #ffffff;
+    padding-bottom: 8px;
 }
 .primera-parte p{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #ffffff;
     padding-bottom: 19px;
+    line-height: 24px;
 }
 .Features{
     padding-top: 80px;
@@ -53,7 +55,7 @@
     color: #83A7A5;
 }
 #tamaño-imagenes{
-    height: 57px;
+    height: 45.88px;
     width: 45.88px;
 }
 #el-boton{
@@ -74,6 +76,10 @@
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     color: #83A7A5;
+    line-height: 22px;
+}
+#separacion{
+    padding-bottom: 10px;
 }
 #lineacolor{
     color: #6FB048;
@@ -108,12 +114,14 @@
     color: #0F5F5C;
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
+    padding-bottom: 12px;
 }
 .cosas p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #83A7A5;
+    line-height: 22px;
 }
 .cosos p{
     padding-top: 140px;
@@ -143,13 +151,17 @@
 .cusus h2{
     color: #0F5F5C;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 32px;
     padding-top: 50px;
+    padding-bottom: 12px;
 }
 .cusus p{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #83A7A5;
+    font-weight: 400;
+    line-height: 24px;
 }
 .precios{
     padding-top: 85px;
@@ -171,7 +183,7 @@
     font-weight: 400;
     font-size: 80%;
     color: #ffffff;
-    width: 80%;
+    width: 250px;
     height: 42px;
 }
 #checkspot{
@@ -190,11 +202,13 @@
     color: #0F5F5C;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 .ayuda p{
     color: #83A7A5;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 65px;
 
 }
 .te-gusta-wapik{
@@ -211,15 +225,19 @@
     padding-bottom: 40px;
 }
 #wapik1{
-    padding-top: 73px;
+    padding-top: 30px;
 }
 #wapik2{
-    padding-top: 100px;
+    padding-top: 60px;
 }
 #los-titulos{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 15px;
+    color: #6FB048;
+}
+#salva{
+font-size: 42px;
     color: #6FB048;
 }
 #cantidad{
@@ -253,6 +271,11 @@
     color: #0F5F5C;
     font-size: 28px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+#cambios{
+    height: 100%;
+    width: 100%;
 }
 #prueba{
     font-family: 'Roboto', sans-serif;
@@ -260,6 +283,9 @@
 }
 #lineanav{
     width: 80%;
+}
+#cartitas{
+    line-height: 28px;
 }
 #letra-fuerte{
     font-size: 13px;
@@ -283,10 +309,27 @@
         background-color: #6FB048;
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
-        font-size: 50%;
+        font-size: 80%;
         color: #ffffff;
-        width: 200px;
+        width: 250px;
         height: 42px;
+    }
+    #cambios{
+        width: 100%;
+        height: 100%;
+    }
+    .primera-parte h1{
+        text-align: center;
+    }
+    .primera-parte p{
+        text-align: center;
+    }
+    #te-gusta{
+        text-align: center;
+    }
+    #tgjr{
+        text-align: center;
+        padding-top: 20px;
     }
 }
 @media (min-width: 768px) and (min-width: 1023px){  
@@ -302,6 +345,10 @@
     }
     .cusus h2{
         padding-top: 0%;
+    }
+    #cambios{
+        width: 100%;
+        height: 100%;
     }
 }
 
